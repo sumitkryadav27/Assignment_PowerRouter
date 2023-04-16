@@ -1,0 +1,14 @@
+
+Q1 Description
+
+Added in comments.
+
+Q2 Completed on the salesforce trailhead.
+
+Q3 Description
+
+The function starts by checking if the head of the linked list is null. If it is, it returns -1. If the head is not null, it initializes two pointers, slow and fast, to the head of the linked list. The fast pointer moves twice as fast as the slow pointer by taking two steps at a time, while the slow pointer takes one step at a time. This ensures that when the fast pointer reaches the end of the linked list, the slow pointer will be pointing to the middle element of the linked list.
+
+The while loop in the getMiddle function continues until either the fast pointer reaches the end of the linked list or the next element of the fast pointer is null, indicating that the end of the linked list has been reached. At each iteration of the loop, the fast pointer takes two steps forward while the slow pointer takes one step forward.
+
+Once the loop is exited, the slow pointer will be pointing to the middle element of the linked list. The data at this element is then returned by the getMiddle function.
